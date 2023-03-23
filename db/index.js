@@ -12,6 +12,8 @@ const db = mysql.createConnection(
   }
 );
 
+
+// !FUNCTIONS TO VIEW DATA
 // Function that will view all data from all the departments
 function viewAllDepartments() {
   db.query("SELECT * FROM department", function (err, results) {
@@ -210,6 +212,8 @@ function viewEmployeesByDepartment() {
   });
 }
 
+
+// !FUNCTIONS TO ADD DATA
 // Function that will add a new department
 function addDepartment() {
   const newDepartment = () => {
@@ -432,6 +436,8 @@ function updateEmployeeRole() {
   });
 }
 
+
+// ! FUNCTIONS TO UPDATE DATA
 // Function that will update the manager of an employee
 // BONUS - Application allows users to update employee managers
 function updateEmployeeManager() {
@@ -488,6 +494,8 @@ function updateEmployeeManager() {
   });
 }
 
+
+// ! FUNCTIONS TO REMOVE DATA
 // Function that will delete a department
 // BONUS- Application allows users to delete departments, roles, and employees
 function deleteDepartment() {

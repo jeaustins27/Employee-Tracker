@@ -142,7 +142,7 @@ function addEmployee() {
       if (err) throw err;
       const managers = res;
 
-      const employeeQuestions = () => {
+      const newEmployee = () => {
         return inquirer
           .prompt([
             {
@@ -198,7 +198,7 @@ function addEmployee() {
           .catch((err) => console.log(err));
       };
 
-      employeeQuestions();
+      newEmployee();
     });
   });
 }

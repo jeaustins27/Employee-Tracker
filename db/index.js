@@ -11,3 +11,27 @@ const db = mysql.createConnection(
       database: "employees_db",
     }
   );
+
+  // Function that will view all data from all the departments
+  function viewAllDepartments() {
+    db.query("SELECT * FROM department", function (err, results) {
+      if (err) throw err;
+      console.table(results);
+    });
+  }
+
+  // Function that will view all data from all the roles
+  function viewAllRoles() {
+    db.query("SELECT * FROM roles", function (err, results) {
+      if (err) throw err;
+      console.table(results);
+    });
+  }
+
+  // Function that will view all data from all the employees
+  function viewAllEmployees() {
+    db.query("SELECT * FROM employees", function (err, results) {
+      if (err) throw err;
+      console.table(results);
+    });
+  }

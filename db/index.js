@@ -18,7 +18,9 @@ const db = mysql.createConnection(
 function viewAllDepartments() {
   db.query("SELECT * FROM department", function (err, results) {
     if (err) throw err;
+    console.clear();
     console.table(results);
+    console.log("Use arrow keys to continue");
   });
 }
 
@@ -26,7 +28,9 @@ function viewAllDepartments() {
 function viewAllRoles() {
   db.query("SELECT * FROM roles", function (err, results) {
     if (err) throw err;
+    console.clear();
     console.table(results);
+    console.log("Use arrow keys to continue");
   });
 }
 
@@ -34,7 +38,9 @@ function viewAllRoles() {
 function viewAllEmployees() {
   db.query("SELECT * FROM employee", function (err, results) {
     if (err) throw err;
+    console.clear();
     console.table(results);
+    console.log("Use arrow keys to continue");
   });
 }
 

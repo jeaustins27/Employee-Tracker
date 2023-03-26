@@ -2,7 +2,7 @@
   # Employee Tracker
 
   ## Description
-This project is a command-line application that uses Node.js, Inquirer, and MySQL that can manage a company's employee database. You can view all employees, managers, department, total budget utilization. You can add employees, updated employees, and remove employees. You can also remove roles and departments. You can also update the managers and roles of employees.
+This project is a command-line application that uses Node.js, Inquirer, and MySQL that can manage a company's employee database. You can view all employees, managers, department, total budget utilization. You can add employees, update employees, and remove employees. You can also remove roles and departments. You can also update the managers and roles of employees.
 
   ## Table of Contents
   * [Project Links](#links)
@@ -15,7 +15,7 @@ This project is a command-line application that uses Node.js, Inquirer, and MySQ
   * [Questions](#questions)
 
   ## Links
-  * [Walkthrough Video]()
+  * [Walkthrough Video](https://drive.google.com/file/d/10VlPxuNnIB3FX56ttF6y3RujKZBCl_bA/view)
   * [GitHub Repo](https://github.com/jeaustins27/Employee-Tracker)
 
   ## Usage
@@ -28,6 +28,7 @@ To get started, clone the repo onto your machine. Once cloned, you will need to 
   * [W3Schools](https://www.w3schools.com/)
   * [Readme.so](https://readme.so/)
   * [Stack Overflow](https://stackoverflow.com)
+  * [MySQL-W3Schools](https://www.w3schools.com/MySQL/default.asp)
 
 
   

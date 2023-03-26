@@ -15,7 +15,7 @@ This project is a command-line application that uses Node.js, Inquirer, and MySQ
   * [Questions](#questions)
 
   ## Links
-  * [Walkthrough Video](https://drive.google.com/file/d/10VlPxuNnIB3FX56ttF6y3RujKZBCl_bA/view)
+  * [Walkthrough Video](https://drive.google.com/file/d/1QIQqpMPFUlNGBrysWg0C73NYLpQDMskg/view)
   * [GitHub Repo](https://github.com/jeaustins27/Employee-Tracker)
 
   ## Usage
